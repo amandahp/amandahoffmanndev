@@ -1,6 +1,5 @@
 import React from 'react'
-import styles from './footer.css'
-import Heart from '../../utils/icons/heart-solid.svg'
+import './footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
 
