@@ -1,0 +1,92 @@
+.header{ 
+    background-color:black;
+    height:71px;
+
+}
+
+.icon-user{
+    color: #8A7F7F;
+    font-size: 30px;
+}
+
+.icon-user:hover{
+    color:#8B1313;
+}
+
+.icon-projects{
+    color: #8A7F7F;
+    font-size: 20px;
+}
+
+.icon-projects:hover{
+    color:#8B1313;
+}
+
+.icon-contacts{
+    color: #8A7F7F;
+    font-size: 30px;
+}
+
+.icon-contacts:hover{
+    color:#8B1313;
+}
+
+.icon-git{
+    color: #8A7F7F;
+    font-size: 30px;
+}
+
+.icon-git:hover{
+    color:#8B1313;
+}
+
+.button-about{
+    width: 40px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0px;
+    border-radius: 80px;
+    position: relative;
+    left: 43%;
+    margin-top: 21px;
+    cursor: pointer;
+
+}
+
+.button-projects{
+    width: 40px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0px;
+    border-radius: 80px;
+    position: relative;
+    left: 45%;
+    margin-top: 21px;
+    cursor: pointer;
+
+}
+
+.button-contact{
+    width: 40px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0px;
+    border-radius: 80px;
+    position: relative;
+    left: 46%;
+    margin-top: 21px;
+    cursor: pointer;
+}
+
+.button-git{
+    width: 40px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0px;
+    border-radius: 80px;
+    position: relative;
+    left: 47%;
+    margin-top: 21px;
+    cursor: pointer;
+
+}

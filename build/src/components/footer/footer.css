@@ -1,0 +1,16 @@
+.icon-heart{
+    position: relative;
+    left:'';
+    width: 14px;
+    color: #8B1313;
+}
+
+.text-made-with{
+    color:#8A7F7F;
+    font-family: Raleway;
+    font-size: 12px;
+    position: relative;
+    left:44%;
+    margin-top: 40px;
+    font: outline;
+}
