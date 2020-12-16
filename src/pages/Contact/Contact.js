@@ -1,8 +1,10 @@
 import React from 'react'
+import Creation from '../../pages/Creation/Creation'
 
 const Contact = () => {
     return(
-        <p>Contact</p>
+        <Creation>
+        </Creation>
     )
 }
 

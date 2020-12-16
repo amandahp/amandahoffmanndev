@@ -25,10 +25,12 @@ const Header = () => {
         window.location = '/contact'
     }
 
+    
+
     return(
         <div className='header'>
             <div>
-                <button onClick={()=>handleAbout()}  className='button-about'> {iconAbout}
+                <button onClick={()=>handleHome()}  className='button-about'> {iconAbout}
                 </button>
                 <button onClick={()=>handleProjects()}  className='button-projects'> {iconProjects}
                 </button>

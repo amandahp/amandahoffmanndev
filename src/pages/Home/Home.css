@@ -77,9 +77,10 @@ body{
 }
 
 .row-first{
-    color: #8B1313;
+    color: #8B1313 !important;
     size: 2px;
     width:300px;
+    border-color: #8B1313;
 }
 
 .text-row{
@@ -97,10 +98,11 @@ body{
 }
 
 .row-second{
-    color: #8B1313;
+    color: #8B1313 !important;
     size: 2px;
     width:300px;
     margin-top: -40px;
+    border-color: #8B1313;
 }
 
 .button-log{
