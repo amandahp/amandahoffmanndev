@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from './header.css'
+import  './header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserCircle, faProjectDiagram, faEnvelopeSquare} from '@fortawesome/free-solid-svg-icons'
 import {faGithub} from '@fortawesome/free-brands-svg-icons'

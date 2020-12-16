@@ -1,8 +1,7 @@
 import React from 'react'
 import Header from '../../components/header/header'
 import Footer from '../../components/footer/footer'
-import styles from './Home.css'
-import logo from '../../utils/img/body-icon.png'
+import  './Home.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFileCode } from '@fortawesome/free-solid-svg-icons'
 
