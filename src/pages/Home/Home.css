@@ -110,12 +110,14 @@ body{
     border: none;
     position: relative;
     left: 40%;
+    cursor: pointer
 
 }
 
 .icon-code{
     color: #8B1313;
     font-size: 150px;
+    box-shadow: 0 0 10px black,   
 }
 
 
