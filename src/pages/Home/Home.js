@@ -23,6 +23,7 @@ const Home = () => {
                     <div className='text-name'>
                         <a href="https://www.linkedin.com/in/amanda-h-660bab130/" className='amanda-name'>Amanda Hoffmann</a>
                         <hr className='row-first'/>
+                        <h6 className='text-row'>Full Stack Web Developer </h6>
                         <hr className='row-second'/>
                     </div>
                 </div>

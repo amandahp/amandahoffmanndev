@@ -5,39 +5,39 @@
 }
 
 .icon-user{
-    color:white;
+    color: #8A7F7F;
     font-size: 30px;
 }
 
 .icon-user:hover{
-    color:#8A7F7F;
+    color:#8B1313;
 }
 
 .icon-projects{
-    color:white;
+    color: #8A7F7F;
     font-size: 20px;
 }
 
 .icon-projects:hover{
-    color:#8A7F7F;
+    color:#8B1313;
 }
 
 .icon-contacts{
-    color:white;
+    color: #8A7F7F;
     font-size: 30px;
 }
 
 .icon-contacts:hover{
-    color:#8A7F7F;
+    color:#8B1313;
 }
 
 .icon-git{
-    color:white;
+    color: #8A7F7F;
     font-size: 30px;
 }
 
 .icon-git:hover{
-    color:#8A7F7F;
+    color:#8B1313;
 }
 
 .button-about{

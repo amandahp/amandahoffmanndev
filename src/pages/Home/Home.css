@@ -52,11 +52,14 @@ body{
 }
 
 .amanda-name:hover{
-    color: white;
+    color: #8A7F7F;
 }
 
 .text-name{
     margin-top:-30px;
+    text-shadow: 0 0 10px black,   
+    13px -13px 12px rgba(0, 0, 0, 0.55), 
+    13px -13px 1px rgba(0, 0, 0, 0.5);
 }
 
 .logo{
@@ -79,11 +82,25 @@ body{
     width:300px;
 }
 
+.text-row{
+    font-family: 'Playfair Display', serif;
+    color: #8B1313;
+    font-size: 20px;
+    width:300px;
+    margin-top: 10px;
+    position: relative;
+    left: 42%;
+    text-shadow: 0 0 10px black,   
+    13px -13px 12px rgba(0, 0, 0, 0.55), 
+    13px -13px 1px rgba(0, 0, 0, 0.5);
+
+}
+
 .row-second{
     color: #8B1313;
     size: 2px;
     width:300px;
-    margin-top: 20px;
+    margin-top: -40px;
 }
 
 .button-log{
