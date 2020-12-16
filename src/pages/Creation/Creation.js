@@ -14,7 +14,7 @@ const Creation = () => {
                 <div className="body-creation">
                     <div class="element">
                     <div className='bar'>
-                        <div className='text-progress'><p>In progress...</p></div>
+                        <div className='text-progress'><p>In progress....</p></div>
                         <div class="progress">
                             <div class="progress-value"></div>
                         </div>
