@@ -1,7 +1,7 @@
 import React from 'react'
 import  './header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUserCircle, faProjectDiagram, faEnvelopeSquare} from '@fortawesome/free-solid-svg-icons'
+import { faUserCircle, faProjectDiagram, faEnvelopeSquare, faHome} from '@fortawesome/free-solid-svg-icons'
 import {faGithub} from '@fortawesome/free-brands-svg-icons'
 
 const Header = () => {
@@ -9,6 +9,7 @@ const Header = () => {
     const iconProjects = <FontAwesomeIcon icon={faProjectDiagram} className='icon-projects' />
     const iconContacts = <FontAwesomeIcon icon={faEnvelopeSquare} className='icon-contacts' />
     const iconGit = <FontAwesomeIcon icon={faGithub} className='icon-git' />
+    const iconHome = <FontAwesomeIcon icon={faHome} className='icon-home' />
 
     const handleHome = () =>{
         window.location ='/home'
@@ -28,6 +29,8 @@ const Header = () => {
     return(
         <div className='header'>
             <div>
+                <button onClick={()=>handleHome()}  className='button-home'> {iconHome}
+                </button>
                 <button onClick={()=>handleAbout()}  className='button-about'> {iconAbout}
                 </button>
                 <button onClick={()=>handleProjects()}  className='button-projects'> {iconProjects}

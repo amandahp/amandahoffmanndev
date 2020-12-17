@@ -1,6 +1,28 @@
+html{    
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-y: hidden;
+}
+
+body{
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-y: hidden;
+}
+
 .header{ 
     background-color:black;
     height:71px;
+
+}
+
+.icon-home{
+    color: #8A7F7F;
+    font-size: 30px;
+}
+
+.icon-home:hover{
+    color:#8B1313;
 
 }
 
@@ -38,6 +60,18 @@
 
 .icon-git:hover{
     color:#8B1313;
+}
+
+.button-home{
+    width: 40px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0px;
+    border-radius: 80px;
+    position: relative;
+    left: 41%;
+    margin-top: 21px;
+    cursor: pointer;
 }
 
 .button-about{
@@ -88,5 +122,185 @@
     left: 47%;
     margin-top: 21px;
     cursor: pointer;
+
+}
+
+
+@media only screen and (max-width: 450px) and (min-width: 320px){
+    html{    
+        overflow: hidden;
+        overflow-y: hidden;
+        overflow-y: hidden;
+    }
+    
+    body{
+        overflow: hidden;
+        overflow-y: hidden;
+        overflow-y: hidden;
+    }
+    .icon-home{
+        color: #8A7F7F;
+        font-size: 20px;
+    }
+    .icon-user{
+        color: #8A7F7F;
+        font-size: 20px;
+    }
+    .icon-projects{
+        color: #8A7F7F;
+        font-size: 10px;
+    }
+    .icon-contacts{
+        color: #8A7F7F;
+        font-size: 20px;
+    }
+    .icon-git{
+        color: #8A7F7F;
+        font-size: 20px;
+    }
+
+    .button-home{
+        width: 40px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 0px;
+        border-radius: 80px;
+        position: relative;
+        left: 20%;
+        margin-top: 21px;
+        cursor: pointer;
+    }
+    .button-about{
+        width: 40px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 0px;
+        border-radius: 80px;
+        position: relative;
+        left: 21%;
+        margin-top: 21px;
+        cursor: pointer;
+    
+    }
+    .button-projects{
+        width: 40px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 0px;
+        border-radius: 80px;
+        position: relative;
+        left: 22%;
+        margin-top: 21px;
+        cursor: pointer;
+    
+    }
+    .button-contact{
+        width: 40px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 0px;
+        border-radius: 80px;
+        position: relative;
+        left: 23%;
+        margin-top: 21px;
+        cursor: pointer;
+    }
+    .button-git{
+        width: 40px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 0px;
+        border-radius: 80px;
+        position: relative;
+        left: 24%;
+        margin-top: 21px;
+        cursor: pointer;
+    
+    }
+
+
+}
+
+@media only screen and (max-width: 414px) and (min-width: 414px){
+    .icon-home{
+        color: #8A7F7F;
+        font-size: 20px;
+    }
+    .icon-user{
+        color: #8A7F7F;
+        font-size: 20px;
+    }
+    .icon-projects{
+        color: #8A7F7F;
+        font-size: 10px;
+    }
+    .icon-contacts{
+        color: #8A7F7F;
+        font-size: 20px;
+    }
+    .icon-git{
+        color: #8A7F7F;
+        font-size: 20px;
+    }
+
+    .button-home{
+        width: 40px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 0px;
+        border-radius: 80px;
+        position: relative;
+        left: 21%;
+        margin-top: 21px;
+        cursor: pointer;
+    }
+    .button-about{
+        width: 40px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 0px;
+        border-radius: 80px;
+        position: relative;
+        left: 22%;
+        margin-top: 21px;
+        cursor: pointer;
+    
+    }
+    .button-projects{
+        width: 40px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 0px;
+        border-radius: 80px;
+        position: relative;
+        left: 23%;
+        margin-top: 21px;
+        cursor: pointer;
+    
+    }
+    .button-contact{
+        width: 40px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 0px;
+        border-radius: 80px;
+        position: relative;
+        left: 24%;
+        margin-top: 21px;
+        cursor: pointer;
+    }
+    .button-git{
+        width: 40px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 0px;
+        border-radius: 80px;
+        position: relative;
+        left: 26%;
+        margin-top: 21px;
+        cursor: pointer;
+    
+    }
+
 
 }

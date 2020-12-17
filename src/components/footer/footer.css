@@ -1,3 +1,15 @@
+html{    
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-y: hidden;
+}
+
+body{
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-y: hidden;
+}
+
 .icon-heart{
     position: relative;
     left:'';
@@ -14,3 +26,47 @@
     margin-top: 40px;
     font: outline;
 }
+
+@media only screen and (max-width: 450px) and (min-width: 320px){
+    .icon-heart{
+        position: relative;
+        left:'';
+        width: 10px;
+        color: #8B1313;
+    }
+
+    .text-made-with{
+        color:#8A7F7F;
+        font-family: Raleway;
+        font-size: 10px;
+        position: relative;
+        left:23%;
+        margin-top: 40px;
+        font: outline;
+    }
+    
+
+}
+
+@media only screen and (max-width: 450px) and (min-width: 320px){
+    .icon-heart{
+        position: relative;
+        left:'';
+        width: 10px;
+        color: #8B1313;
+    }
+
+    .text-made-with{
+        color:#8A7F7F;
+        font-family: Raleway;
+        font-size: 10px;
+        position: relative;
+        left:27%;
+        margin-top: 40px;
+        font: outline;
+    }
+    
+
+}
+
+
